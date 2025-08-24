@@ -35,7 +35,7 @@ export const HeroSection = () => {
             className="mb-8"
           >
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 rounded-full text-cyan-400 text-sm font-semibold mb-6 border border-cyan-500/30 backdrop-blur-sm">
-              <span>Now Live on Hyperliquid Testnet</span>
+              <span>Now Live on Hyperliquid</span>
             </div>
             
             <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full text-purple-400 text-sm font-semibold mb-6 border border-purple-500/30 backdrop-blur-sm">
