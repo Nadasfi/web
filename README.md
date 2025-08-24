@@ -146,8 +146,7 @@ This project is licensed under the MIT License.
 ## Contact
 
 - Website: [nadas.fi](https://nadas.fi)
-- Email: contact@nadas.fi
-- Twitter: [@nadasfi](https://twitter.com/nadas_fi)
+- Twitter: [@nadas_fi](https://twitter.com/nadas_fi)
 - GitHub: [nadasfi](https://github.com/nadasfi)
 
 ## Acknowledgments
