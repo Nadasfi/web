@@ -55,6 +55,17 @@ export const Header = () => {
               whileTap={{ scale: 0.98 }}
             >
               <a 
+                href="/demo"
+                className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-semibold hover:shadow-lg hover:shadow-purple-500/30 transition-all duration-300 mr-3"
+              >
+                Live Demo
+              </a>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.02, y: -1 }} 
+              whileTap={{ scale: 0.98 }}
+            >
+              <a 
                 href="/early-access"
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300"
               >
@@ -89,8 +100,14 @@ export const Header = () => {
                 About
               </a>
               <a 
-                href="#demo"
-                className="mt-4 px-8 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold text-left"
+                href="/demo"
+                className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-semibold text-left mt-2"
+              >
+                Live Demo
+              </a>
+              <a 
+                href="/early-access"
+                className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold text-left mt-2"
               >
                 Early Access
               </a>
