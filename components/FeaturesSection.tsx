@@ -176,7 +176,7 @@ export const FeaturesSection = () => {
                 href="#demo"
                 className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold text-lg hover:shadow-xl hover:shadow-cyan-500/30 transition-all duration-300 flex items-center gap-2 mx-auto w-fit"
               >
-                <span>Start Trading Safely</span>
+                <span>Join Early Access</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
             </motion.div>

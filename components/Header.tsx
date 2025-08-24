@@ -53,10 +53,10 @@ export const Header = () => {
               whileTap={{ scale: 0.98 }}
             >
               <a 
-                href="#demo"
+                href="/early-access"
                 className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold hover:shadow-lg hover:shadow-cyan-500/30 transition-all duration-300"
               >
-                Launch App
+                Early Access
               </a>
             </motion.div>
           </div>
@@ -90,7 +90,7 @@ export const Header = () => {
                 href="#demo"
                 className="mt-4 px-8 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold text-left"
               >
-                Launch App
+                Early Access
               </a>
             </nav>
           </motion.div>

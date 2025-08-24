@@ -10,8 +10,8 @@ const footerLinks = [
     links: [
       { name: 'Features', href: '#features' },
       { name: 'Security', href: '#security' },
-      { name: 'Trading', href: '#demo' },
-      { name: 'Automation', href: '#features' }
+      { name: 'Early Access', href: '/early-access' },
+      { name: 'About', href: '#about' }
     ]
   },
   {

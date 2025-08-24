@@ -38,6 +38,10 @@ export const HeroSection = () => {
               <span>Now Live on Hyperliquid Testnet</span>
             </div>
             
+            <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full text-purple-400 text-sm font-semibold mb-6 border border-purple-500/30 backdrop-blur-sm">
+              <span>Join 100+ Early Access Users</span>
+            </div>
+            
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               <span>Secure DeFi Automation</span>
               <br />
@@ -63,10 +67,10 @@ export const HeroSection = () => {
               whileTap={{ scale: 0.98 }}
             >
               <a 
-                href="#demo"
+                href="/early-access"
                 className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-teal-500 text-black rounded-xl font-semibold text-lg hover:shadow-xl hover:shadow-cyan-500/30 transition-all duration-300 flex items-center gap-2 min-w-[200px] justify-center"
               >
-                <span>Launch App</span>
+                <span>Early Access</span>
                 <ArrowRight className="w-5 h-5" />
               </a>
             </motion.div>
