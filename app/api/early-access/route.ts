@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+// Edge Runtime configuration for Cloudflare Pages
+export const runtime = 'edge';
+
 // Supabase client configuration
 const SUPABASE_URL = 'https://aiwzwynntrbrzzoqxcrw.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpd3p3eW5udHJicnp6b3F4Y3J3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3OTg1MzYsImV4cCI6MjA3MTM3NDUzNn0.8Zg9sEX0-pSvOuiDZ9TeSFRXC1E0uE8sQhZhK3oYVN0';
