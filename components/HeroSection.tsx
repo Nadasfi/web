@@ -75,13 +75,16 @@ export const HeroSection = () => {
               </a>
             </motion.div>
             
-            <motion.button 
-              className="px-8 py-4 border-2 border-cyan-500/50 text-white rounded-xl font-semibold text-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300 min-w-[200px]" 
+            <motion.a 
+              href="https://docs.nadas.fi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-4 border-2 border-cyan-500/50 text-white rounded-xl font-semibold text-lg hover:bg-cyan-500/10 hover:border-cyan-400 transition-all duration-300 min-w-[200px] flex items-center justify-center" 
               whileHover={{ scale: 1.02, y: -2 }} 
               whileTap={{ scale: 0.98 }}
             >
               <span>Learn More</span>
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           <motion.div 

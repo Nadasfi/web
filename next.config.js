@@ -4,6 +4,11 @@ const nextConfig = {
     domains: ['localhost'],
   },
   trailingSlash: true,
+  output: 'export',
+  distDir: 'out',
+  experimental: {
+    appDir: true,
+  },
 }
 
 module.exports = nextConfig

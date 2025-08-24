@@ -41,11 +41,8 @@ export const Header = () => {
             <a href="#features" className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium">
               Features
             </a>
-            <a href="#security" className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium">
-              Security
-            </a>
-            <a href="#about" className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium">
-              About
+            <a href="https://docs.nadas.fi" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-all duration-300 font-medium">
+              Docs
             </a>
           </nav>
 
@@ -93,11 +90,8 @@ export const Header = () => {
               <a href="#features" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">
                 Features
               </a>
-              <a href="#security" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">
-                Security
-              </a>
-              <a href="#about" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">
-                About
+              <a href="https://docs.nadas.fi" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-colors font-medium">
+                Docs
               </a>
               <a 
                 href="/demo"
