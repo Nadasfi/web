@@ -53,9 +53,11 @@ export const Footer = () => {
           >
             <div className="flex items-center space-x-3 mb-4">
               <div className="relative w-10 h-10 flex items-center justify-center">
-                <div className="w-8 h-8 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-xl flex items-center justify-center">
-                  <span className="text-lg font-bold text-black">N</span>
-                </div>
+                <img 
+                  src="/images/logo-transp.png" 
+                  alt="Nadas Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
                 Nadas
@@ -67,7 +69,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <motion.a 
-                href="https://twitter.com/nadasfi" 
+                href="https://twitter.com/Nadas_fi" 
                 className="w-10 h-10 bg-gradient-to-br from-cyan-500/20 to-teal-500/20 rounded-xl flex items-center justify-center text-cyan-400 hover:bg-gradient-to-br hover:from-cyan-500 hover:to-teal-500 hover:text-black transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/30 border border-cyan-500/20" 
                 whileHover={{ scale: 1.05, y: -2 }} 
                 whileTap={{ scale: 0.95 }}
@@ -156,7 +158,7 @@ export const Footer = () => {
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <span>Built for</span>
               <div className="px-3 py-1 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 rounded-full text-cyan-400 font-semibold border border-cyan-500/30">
-                <span>Hyperliquid Testnet</span>
+                <span>Hyperliquid</span>
               </div>
             </div>
           </div>

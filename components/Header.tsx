@@ -20,9 +20,11 @@ export const Header = () => {
           >
             <div className="relative">
               <div className="relative w-16 h-16 flex items-center justify-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-2xl flex items-center justify-center">
-                  <span className="text-2xl font-bold text-black">N</span>
-                </div>
+                <img 
+                  src="/images/logo-transp.png" 
+                  alt="Nadas Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
             </div>
             <div>
