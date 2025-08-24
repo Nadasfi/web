@@ -26,7 +26,7 @@ const footerLinks = [
   {
     title: 'Community',
     links: [
-      { name: 'Twitter', href: 'https://twitter.com/nadasfi', icon: Twitter },
+      { name: 'Twitter', href: 'https://twitter.com/nadas_fi', icon: Twitter },
       { name: 'GitHub', href: 'https://github.com/nadasfi', icon: Github },
       { name: 'Discord', href: '#', icon: ExternalLink },
       { name: 'Blog', href: '#' }
