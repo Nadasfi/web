@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   description: 'Secure, non-custodial DeFi automation platform for Hyperliquid testnet. Experience the future of automated trading without compromising control.',
   keywords: 'DeFi, Hyperliquid, automation, trading, blockchain, cryptocurrency',
   authors: [{ name: 'Nadas.fi Team' }],
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
   openGraph: {
     title: 'Nadas.fi - Hyperliquid DeFi Automation Platform',
     description: 'Secure, non-custodial DeFi automation platform for Hyperliquid testnet.',
